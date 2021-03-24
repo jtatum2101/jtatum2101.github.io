@@ -1081,9 +1081,9 @@ pre code {
 }
 
 .project-image {
-  height: calc(100% - 8rem);
-  width: 100%;
-  object-fit: cover;
+  height: calc(105% - 8rem);
+  width: 90%;
+  object-fit:contain;
 }
 
 .project-title {
