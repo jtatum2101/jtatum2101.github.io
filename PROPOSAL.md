@@ -7,9 +7,8 @@
 - My contact information.
 
 ### The motivation behind this website is:
-- To show off my skills to potential employers that are looking for Web or Software Developers. 
-- To increase my chance of being hired by companies that think I am a great fit on their team. 
-- To prove that I am the person that these companies are looking for. 
+- To show off my skills to potential employers that are looking for a Full-Stack Software Developer. 
+- To increase my chance of being hired by companies that think I am a great fit on their team.  
 ### Pior Art:
 - The Pior art of this project is to show off my skills of HTML/CSS/Bootstrap that I have obtained over the last 5 weeks.
 
