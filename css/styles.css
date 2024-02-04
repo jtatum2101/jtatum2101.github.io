@@ -2523,7 +2523,7 @@ textarea.form-control {
 .btn-2 {
   display: inline-block;
   font-weight: 400;
-  color: #FC766AFF;
+  color: #F8F0C6;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -3596,7 +3596,7 @@ input[type=button].btn-block {
   min-height: 1.5rem;
   padding-left: 1.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          accent-color: exact;
 }
 
 .custom-control-inline {
@@ -4011,7 +4011,7 @@ input[type=button].btn-block {
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  color:#FC766AFF;
+  color:#F8F0C6;
 
 }
 .nav-link.disabled {
@@ -6206,7 +6206,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #184A45FF !important;
+  background-color: #202324 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6216,7 +6216,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #FC766AFF !important;
+  background-color: #F8F0C6 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9908,19 +9908,19 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #184A45FF !important;
+  color: #202324 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #FC766AFF !important;
+  color: #F8F0C6 !important;
 }
 
 .text-secondary {
-  color: #FC766AFF !important;
+  color: #F8F0C6 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #FC766AFF !important;
+  color: #F8F0C6 !important;
 }
 
 .text-success {
