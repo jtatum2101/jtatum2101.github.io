@@ -14,8 +14,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: 	 #202324;
-  --secondary: #F8F0C6;
+  --primary: 	 #0B2E33;
+  --secondary: #93B1B5;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -56,7 +56,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #30D5C8;
+  background-color: #B8E3E9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
