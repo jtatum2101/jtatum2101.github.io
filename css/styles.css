@@ -6,7 +6,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #83d4f3;
+  --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -14,10 +14,10 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: 	 #0B2E33;
-  --secondary: #93B1B5;
+  --primary: 	 #1E2A38;
+  --secondary:  #4E9FFF;
   --success: #28a745;
-  --info: #17a2b8;
+  --info: #E5E8EC;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
@@ -56,7 +56,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #B8E3E9;
+  background-color: var(--secondary);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -496,7 +496,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #F8F0C6;
+  color: var(--info);
   word-wrap: break-word;
 }
 a > code {
@@ -1067,7 +1067,7 @@ pre code {
 }
 
 .project:hover .code {
-  color: #F6E8B1;
+  color: var(--info);
 }
 
 .project-image {
@@ -1095,8 +1095,8 @@ pre code {
   color: var(--secondary);
 }
 .text {
-  font-size: 0.65rem;
-  padding: 0rem 1rem;
+  font-size: 0.70rem;
+  padding: 0rem 1.5rem;
   color: var(--secondary);
 }
 .btn {
@@ -4011,7 +4011,7 @@ input[type=button].btn-block {
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  color:#F8F0C6;
+  color: var(--secondary);
 
 }
 .nav-link.disabled {
@@ -9908,19 +9908,19 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #202324 !important;
+  color: var(--primary) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #202324 !important;
+  color: var(--info) !important;
 }
 
 .text-secondary {
-  color: #F8F0C6 !important;
+  color: var(--secondary) !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #F8F0C6 !important;
+  color: var(--info) !important;
 }
 
 .text-success {
@@ -9932,11 +9932,11 @@ a.text-success:hover, a.text-success:focus {
 }
 
 .text-info {
-  color: #17a2b8 !important;
+  color: var(--info) !important;
 }
 
 a.text-info:hover, a.text-info:focus {
-  color: #0f6674 !important;
+  color: var(--primary) !important;
 }
 
 .text-warning {
